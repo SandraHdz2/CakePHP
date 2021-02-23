@@ -43,12 +43,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <div class="top-bar-section">
             <ul class="right">
-                <li><a href="/ProyectoCake/employees">Employees</a></li>
-                <li><a href="/ProyectoCake/titles">Titles</a></li>
-                <li><a href="/ProyectoCake/salaries">Salaries</a></li>
-                <li><a href="/ProyectoCake/departments">Departments</a></li>
-                <li><a target="_blank" href="https://book.cakephp.org/3.0/">Documentation</a></li>
-                <li><a target="_blank" href="https://api.cakephp.org/3.0/">API</a></li>
+                <li><a href="/CakePHP/employees">Employees</a></li>
+                <li><a href="/CakePHP/titles">Titles</a></li>
+                <li><a href="/CakePHP/salaries">Salaries</a></li>
+                <li><a href="/CakePHP/departments">Departments</a></li>
+                <li><?= $this->Html->link(__('Cerrar sesión'), [ 'controller' => 'Employees', 'action' => 'logout']) ?></li>
             </ul>
         </div>
     </nav>
